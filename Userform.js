@@ -5,13 +5,13 @@ import Display from './Display';
 export default class Userform extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {Data=[{
+    this.state = {
       uname: "",
       uid: "",
       hobby: ""
     }
-    ]
-    }
+    
+    
   }
   
   handleUname(event) {
